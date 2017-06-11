@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.shreygupta.task86_2.MainActivity"
+    android:orientation="vertical"
+    android:background="#000">
+
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:text="Toast"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:text="Event Handling"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:text="History"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/orientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:text="Orientation"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:text="Life Cycle"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffc400"
+        android:textSize="23dp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+</LinearLayout>
